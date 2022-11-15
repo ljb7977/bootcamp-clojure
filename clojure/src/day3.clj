@@ -6,4 +6,15 @@
                (slurp)
                (clojure.string/split-lines)))
 
+(slurp "resources/day3.sample.txt")
+
 (count input)
+
+(defn add [a b]
+  (+ a b))
+
+(comment
+  (+ 1 2)
+  (add 4 5)
+
+  (+ 1 2))
